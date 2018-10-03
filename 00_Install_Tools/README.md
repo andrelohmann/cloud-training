@@ -7,7 +7,7 @@ Installation aller benötigten Tools
 terminator ist ein multiple window terminal
 
 ```
-sudo install terminator
+sudo apt-get install terminator
 ```
 
 ### Shortcuts
@@ -45,7 +45,7 @@ nano ~/.config/terminator/config
 distributed revision control system
 
 ```
-sudo install git
+sudo apt-get install git
 ```
 
 Nachdem git installiert wurde, bietet es sich sich, ein paar globale config Parameter zu setzen
@@ -131,7 +131,7 @@ lsvirtualenv
 ## network und analyse tools
 
 ```
-sudo install htop nmap tcptraceroute ethstatus
+sudo apt-get install htop nmap tcptraceroute ethstatus
 ```
 
 ## atom
