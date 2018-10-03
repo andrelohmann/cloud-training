@@ -147,7 +147,9 @@ VirtualBox erlaubt das einrichten und starten virtueller Computer auf unserem Ho
 Für die Installation von VirtualBox folgen wir den Schritten auf der Website https://www.virtualbox.org/wiki/Linux_Downloads
 
 ```
-sudo echo 'deb https://download.virtualbox.org/virtualbox/debian bionic contrib' >> /etc/apt/sources.list.d/virtualbox.list
+sudo bash -c 'cat > /etc/apt/sources.list.d/virtualbox.list' << EOF
+deb https://download.virtualbox.org/virtualbox/debian bionic contrib
+EOF
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install virtualbox-5.2
