@@ -142,7 +142,7 @@ Zur Installation ist das .deb File von https://atom.io/ herunter zu laden und zu
 
 ## VirtualBox
 
-VirtualBox erlaubt das einrichten und starten virtueller Computer auf unserem Host System
+VirtualBox erlaubt das Einrichten und Starten virtueller Computer auf unserem Host System
 
 Für die Installation von VirtualBox folgen wir den Schritten auf der Website https://www.virtualbox.org/wiki/Linux_Downloads
 
@@ -156,6 +156,8 @@ sudo apt-get install virtualbox-5.2
 ```
 
 Anschließend sollte noch das VirtualBox Extension Pack (https://www.virtualbox.org/wiki/Downloads) herunter geladen und installiert werden
+
+[Eine kurze VirtualBox Einführung](virtualbox)
 
 ## SSH Key
 
