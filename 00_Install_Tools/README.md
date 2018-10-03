@@ -48,6 +48,13 @@ distributed revision control system
 sudo install git
 ```
 
+Nachdem git installiert wurde, bietet es sich sich, ein paar globale config Parameter zu setzen
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 ## python virtualenv
 
 python virtualenv erlaubt das anlegen virtueller python environments
