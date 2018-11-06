@@ -8,7 +8,7 @@
 
 [Eine Einführung in Vagrant](01_Vagrant)
 
-## 02. Docker
+## 02. Ansible
 
 [Eine Einführung in Ansible](02_Ansible)
 
